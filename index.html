@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  
+    <form action="homepage.html" method="get" class="form-example">
+      <h1>Login Here!!</h1>
+        <div class="form-example">
+          <label for="name">Username: </label>
+          <input type="text" name="name" id="name" pattern="[A-Za-z0-9_]{1,15}" placeholder="firstname_lastname" title="username can only contain uppercase, lowercase and underscore" required>
+        </div>
+        <div class="form-example">
+          <label style="padding-left: 4px;" for="pass">  Password:</label>
+          <input type="password" name="pass" id="pass" minlength="8" required>
+        </div>
+        <div class="form-example center">
+          <input id="button" type="submit" value="submit">
+        </div>
+      </form>
+      
+</body>
+</html>
